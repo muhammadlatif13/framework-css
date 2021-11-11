@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Yantramanav:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+
+.navbar-nav{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.banner{
+    background: url(properti/jakarta.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 90%;
+    padding-top: 23%;
+    padding-bottom: 23%;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutjkt img{
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aboutjkt p{
+    font-size: 20px;
+}
+
+.wisata p{
+    font-size: 20px;
+}
+
+.wisata img{
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wisata ul li{
+    font-size: 20px;
+}
+
+footer{
+    background-color:#191919 ;
+}
+
+footer p {
+    font-family: calibri;
+}
+
+footer p:nth-child(1) {
+    font-family: var(--title-font);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fbf2f2;
+    line-height: 10px;
+}
+
+footer p:nth-child(2) {
+    font-size: 18px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+
+footer p:nth-child(3){
+    font-size: 15px;
+    width: 600px;
+    text-align: center;
+    color: #fbf2f2;
+}
+
+footer {
+    height: 200px;
+    flex-direction: column;
+}
